@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0%;
+  /* color: white;
+  background-color: rgb(29, 26, 26); */
+}
+/* hr{
+  height: 100%;
+  width: ;
+  border-width:0;
+  background-color:blue;
+} */
+/* .card{
+  display: flex;
+  justify-content: space-between;
+} */
+.card-1{
+  height: auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  background-color: rgb(61, 39, 39);
+  color: white;
+}
+
+.card-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
